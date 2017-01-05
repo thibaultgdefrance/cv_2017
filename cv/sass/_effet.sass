@@ -1,0 +1,42 @@
+*
+    margin: 0px
+    padding: 0px
+html
+    height: 100%
+body
+    height: 100%
+
+=border-radius($radius)
+    -webkit-border-radius: $radius
+    -moz-border-radius: $radius
+    -ms-border-radius: $radius
+    border-radius: $radius
+
+=hover-bouton
+    background-color: #5394EA
+    @include ombre-portee(0px, 0px, 20px, red )
+
+.box
+    @include border-radius(10px)
+
+.menu
+    background-color: #1C1F24
+    oppacity: 0
+
+.bouton
+    @include border-radius(5px)
+    border: solid grey 1px
+    margin: 2px
+    padding-left: 2px
+    padding-top: 5px
+    color: white
+    font-family: 'Amatic SC', cursive
+    font-size: 40px
+
+.bouton:hover
+    @include hover-bouton
+
+.photo
+    background-image: url('../media/images.jpeg')
+    height: 100%
+    background-size: cover

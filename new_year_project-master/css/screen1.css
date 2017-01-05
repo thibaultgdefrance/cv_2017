@@ -1,0 +1,60 @@
+.logo {
+  max-width: 100%;
+  max-height: 100%;
+  position: fixed; }
+
+/*animation bg */
+svg {
+  background-color: #D9E021;
+  animation: colorChange 10s infinite;
+  -webkit-animation: colorChange 10s infinite; }
+@keyframes colorChange {
+  0% {
+    background: #D9E021; }
+  25% {
+    background: #00ADA5; }
+  50% {
+    background: #F7931E; }
+  75% {
+    background: #CA16FF; }
+  100% {
+    background: #D9E021; } }
+@-webkit-keyframes colorChange /* Safari and Chrome */ {
+  0% {
+    background: #D9E021; }
+  25% {
+    background: #00ADA5; }
+  50% {
+    background: #F7931E; }
+  75% {
+    background: #CA16FF; }
+  100% {
+    background: #D9E021; } }
+/*animation logo */
+.color {
+  fill: #00ADA5;
+  animation: logoColorChange 10s infinite; }
+@keyframes logoColorChange {
+  0% {
+    fill: #00ADA5; }
+  25% {
+    fill: #F7931E; }
+  50% {
+    fill: #CA16FF; }
+  75% {
+    fill: #D9E021; }
+  100% {
+    fill: #00ADA5; } }
+@-webkit-keyframes logocolorchange /* Safari and Chrome */ {
+  0% {
+    fill: #00ADA5; }
+  25% {
+    fill: #F7931E; }
+  50% {
+    fill: #CA16FF; }
+  75% {
+    fill: #D9E021; }
+  100% {
+    fill: #00ADA5; } }
+
+/*# sourceMappingURL=screen1.css.map */
